@@ -9,9 +9,12 @@ import {
 
 import { Container, Button } from '../../components';
 import {
+  Welcome,
   RegisterButton,
   InputField,
-  ForgotButton
+  ForgotButton,
+  SeparateLine,
+  GoogleButton
 } from './components';
 
 import styles from './style';
@@ -38,10 +41,14 @@ class Login extends React.Component {
 
   }
 
+  onGoogle() {
+
+  }
+
   renderHeaderContent() {
     return (
       <View style={styles.titleContent}>
-
+        <Welcome />
       </View>
     )
   }
@@ -71,7 +78,10 @@ class Login extends React.Component {
   renderSocialLoginContent() {
     return (
       <View style={styles.socialLoginContent}>
-        
+        <SeparateLine />
+        <GoogleButton
+          onPress={() => this.onGoogle()}
+        />
       </View>
     )
   }

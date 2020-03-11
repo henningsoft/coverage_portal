@@ -194,7 +194,6 @@
 				3F29600B990B5F450ACAFC71 /* Pods-coverage_portalTests.debug.xcconfig */,
 				D840B057FBF24131F60A5D66 /* Pods-coverage_portalTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +307,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
