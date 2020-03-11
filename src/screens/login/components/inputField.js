@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
   },
   input: {
     width: '100%',
-    height: 30,
+    height: 50,
     fontSize: 20
   }
 });
